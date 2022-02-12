@@ -1,0 +1,37 @@
+<!DOCTYPE html><!--ty-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>conversor sistemas numericos</title>
+</head>
+<body>
+    <header><h1>Conversor de sistemas numericos</h1></header>
+    <main>
+        <span>Convertir</span>
+        <input id="num" type="text">
+        <span>de</span>
+        <select name="selector1" id="from">
+            <option value="0">Elija una opcion...</option>
+            <option value="decimal">Decimal</option>
+            <option value="binario">Binario</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+        </select>
+        <span>a</span>
+        <select name="selector2" id="to">
+            <option value="0">Elija una opcion...</option>
+            <option value="decimal">Decimal</option>
+            <option value="binario">Binario</option>
+            <option value="hexadecimal">Hexadecimal</option>
+            <option value="octal">Octal</option>
+        </select>
+        <button>Convertir</button>
+        <br>
+        <p id="result"></p>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
